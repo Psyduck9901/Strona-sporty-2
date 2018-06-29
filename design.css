@@ -1,0 +1,120 @@
+html
+{
+	background:url(img/redcar.jpg) no-repeat center fixed;
+	background-size:cover;
+}
+body
+{
+	margin:0;
+}
+#header
+{
+	min-height:355px;
+	width:100%;
+}
+#triangle1
+{
+	position:absolute;
+	border-right: 1187px solid transparent;
+	border-top:300px solid #66C44E;
+	left:0px;
+	top:0px;
+	opacity:0.8;
+}
+#triangle1in
+{
+	position:absolute;
+	border-right: 733px solid transparent;
+	border-top:150px solid #000000;
+	left:0px;
+	top:0px;
+}
+#triangle2
+{
+	position:absolute;
+	border-left: 1000px solid transparent;
+	border-top:200px solid #4CB9BF;
+	right:0px;
+	top:0px;
+	opacity:0.9;
+}
+#titlename
+{
+	position:relative;
+	font-family: 'Bungee Inline';
+	font-size:90px;
+	transform: rotate(-14.1deg);
+	top:-100px;
+}
+#log_in
+{
+	position:fixed;
+	font-family: 'Bungee Inline';
+	font-size:20px;
+	right:20px;
+	top:10px;
+}
+#nav_cont
+{
+	position:fixed;
+	height:355px;
+	width:100%;
+	background-color:white;
+	top:0;
+	left:0px;
+	z-index:-1;
+	margin:0;
+	opacity:0.4;
+}
+#nav
+{
+	position:relative;
+	width:100%;
+	text-align:center;
+	padding:0;
+	margin:0;
+	top:74px;
+	background-color:#e6e6e6;
+	opacity:0.8;
+}
+ol
+{
+	list-style-type:none;
+	z-index:50;
+	line-height:200%;
+	margin:0;
+	padding:0;
+	font-size:25px;
+	height:50px;
+}
+ol a
+{
+	text-decoration:none;
+	display:block;
+	font-family: 'Bungee Inline';
+	color:black;
+}
+ol > li
+{
+	display:inline-block;
+	width:250px;
+	border-right: 1px dashed #000000;
+}
+ol > li:first-child
+{
+	border-left: 1px dashed #000000;
+}
+ol a:hover
+{
+	background-color:#66C44E;
+}
+#content
+{
+	color:white;
+	width:1538.25px;
+	background-color:green;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+	padding-top:50 px;
+}
