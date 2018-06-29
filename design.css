@@ -11,6 +11,7 @@ body
 {
 	min-height:355px;
 	width:100%;
+    position: relative;
 }
 #triangle1
 {
@@ -48,13 +49,13 @@ body
 }
 #log_in
 {
-	position:fixed;
+	position:absolute;
 	font-family: 'Bungee Inline';
 	font-size:20px;
 	right:20px;
 	top:10px;
 }
-#nav_cont
+#nav_bckg
 {
 	position:fixed;
 	height:355px;
@@ -80,6 +81,7 @@ body
 ol
 {
 	list-style-type:none;
+	list-style-type: none;
 	z-index:50;
 	line-height:200%;
 	margin:0;
@@ -112,9 +114,24 @@ ol a:hover
 {
 	color:white;
 	width:1538.25px;
-	background-color:green;
+	background-color:rgb(54, 126, 54);
 	margin-left:auto;
 	margin-right:auto;
 	text-align:justify;
 	padding-top:50 px;
+}
+
+#footer {
+    background-color:cornsilk;
+    position:static;
+    bottom: 0px;
+    text-align: center;
+}
+
+#logo {
+   transition: 0.3s trasf
+}
+
+#logo:hover {
+   transform: scale(1.3);
 }
