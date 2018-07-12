@@ -134,25 +134,26 @@ ol>li>ul>li
 	margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.61);
 }
 h1 {
     font-family: 'bungee inline';
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     margin-top: 0px;
     font-size: 70px;
     background-color: rgba(191, 76, 76, 0.96);
 }
 #img1
 {
-    float: left;
-    margin-top:10px;
-    height:
+    float:left;
+    margin-right: 10px;
 }
 #content
 {
     color:white;
-
-
+    font-family: 'Chela One', cursive;
+    font-size:30px;
+    padding-top:60px;
 }
 #footer
 {
