@@ -43,9 +43,10 @@ body
 {
 	position:relative;
 	font-family: 'Bungee Inline';
-	font-size:90px;
+	font-size:80px;
 	transform: rotate(-14.1deg);
-	top:-100px;
+	top:-80px;
+    left:-20px;
 }
 #log_in
 {
@@ -142,18 +143,39 @@ h1 {
     margin-top: 0px;
     font-size: 70px;
     background-color: rgba(191, 76, 76, 0.96);
+    border-top-left-radius: 5px;
+    border-top-right-radius:
 }
 #img1
 {
     float:left;
     margin-right: 10px;
+    border-radius: 15px;
 }
-#content
+#content1
 {
     color:white;
     font-family: 'Chela One', cursive;
     font-size:30px;
     padding-top:60px;
+}
+h2
+{
+    color: white;
+    font-family: 'bungee inline';
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    padding-left: 100px;
+}
+#content2
+{
+    color:white;
+    font-family: 'Chela One', cursive;
+    font-size:30px;
+    text-align: left;
+    padding-left: 70px;
 }
 #footer
 {
