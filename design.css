@@ -53,9 +53,47 @@ body
 	position:absolute;
 	font-family: 'Bungee Inline';
 	font-size:20px;
-	right:20px;
-	top:10px;
+	right:0px;
+	top:0px;
     text-align: center;
+    width:250px;
+    box-sizing: border-box;
+    background-color: black;
+    border-bottom-left-radius: 40%;
+    height:270px;
+    color:white;
+}
+input[type=text],input[type=password]
+{
+    width:180px;
+    padding:5px;
+    border-radius:7px;
+    background: #dddddd;
+}
+input[type=text]:focus,input[type=password]:focus
+{
+    transform: scale(1.05);
+}
+input[type=submit]
+{
+    background-color: #bf4c4c;
+    color: black;
+    font-family: 'bungee inline';
+    width:180xp;
+    border-radius: 5px;
+    margin-top:20px;
+    width:150px;
+    font-size: 17px;
+    padding:0px;
+}
+#link1
+{
+    text-decoration: none;
+    color: #bf4c4c;
+}
+#link1:hover
+{
+    color: #9d2a2a;
 }
 .nav_bckg
 {
@@ -124,6 +162,7 @@ ol>li>ul>li
     position: relative;
     z-index: 100;
     margin: 3px;
+    width:250px;
 }
 #logo
 {
